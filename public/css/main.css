@@ -1,0 +1,18 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+
+
+.tr {
+    background: yellow;
+    }
+
+    td{
+        padding: 10px;
+    }
+    .td-bond{
+        font-weight: bold;
+    }
