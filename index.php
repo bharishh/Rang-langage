@@ -38,8 +38,8 @@ include_once __DIR__.'/model/langModel.php';
             
         </thead>
         <?php       
-$top10 = getLangs($conn);
-foreach($top10 as $ttop10): ?>
+            $top10 = getLangs($conn);
+            foreach($top10 as $ttop10): ?>
         <tbody>
          
             <tr>
@@ -58,52 +58,5 @@ foreach($top10 as $ttop10): ?>
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <table>
-    <thead>
-
-  
-    <tr class ="tr">
-        
- 
-
- 
-    </tr>
-    </thead>
-
-        <tr >
-
-        <td></td>
-        <td></td>    
-        <td></td>
-        <td></td>
-
-    
-
-
-
-    </tr>
-    </table>
- -->
 
 
