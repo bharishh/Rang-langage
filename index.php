@@ -1,4 +1,5 @@
 <?php
+include_once __DIR__.'/controller/baseController.php';
 include_once __DIR__.'/model/config.php';
 include_once __DIR__.'/model/langModel.php';
 ?>
@@ -11,9 +12,13 @@ include_once __DIR__.'/model/langModel.php';
     <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
+
+
     <header>
-        <h1>Classement des langages 2024</h1>
+        <h1><?= Lang::$title ?></h1>
     </header>
+
+
 <main>
 
 <div class="table-primary" role="region" aria-labelledby="compilation">
