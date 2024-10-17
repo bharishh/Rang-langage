@@ -33,7 +33,7 @@ include_once __DIR__.'/model/langModel.php';
             <th><b>id_rang </b></th>
         <th><b>Langages </b></th>
         <th><b>description</b> </th>
-        <th><b>utilisationPrincipal</b></th>
+        <th><b>utilisation Principale</b></th>
             </tr>
             
         </thead>
@@ -43,10 +43,10 @@ include_once __DIR__.'/model/langModel.php';
         <tbody>
          
             <tr>
-                <td><?=htmlspecialchars($ttop10['id_rang'])." "?></td>
-                <td><?=htmlspecialchars($ttop10['langage'])." "?></td>
-                <td><?=htmlspecialchars($ttop10['description'])." "?></td>
-                <td><?=htmlspecialchars($ttop10['utilisationPrincipal'])?></td>
+                <td><?=($ttop10['id_rang'])." "?></td>
+                <td><?=($ttop10['langage'])." "?></td>
+                <td><?=($ttop10['description'])." "?></td>
+                <td><?=($ttop10['utilisationPrincipal'])?></td>
             </tr>
        
           
