@@ -1,18 +1,43 @@
-table {
-    table-layout: fixed;
+@import url(reset.css);
+
+header h1{
+  text-align: center;
+  line-height: 8rem;
+}
+
+.table-primary {
+    max-width: 120rem;
+    margin: 0 auto 1rem;
+  }
+  .table-primary table {
+    
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: solid 0.1rem #fff;
   }
-
-
-.tr {
-    background: yellow;
-    }
-
-    td{
-        padding: 10px;
-    }
-    .td-bond{
-        font-weight: bold;
-    }
+  .table-primarytable thead th,
+  .table-primary table tbody  td {
+    width: inherit;
+    border-collapse: collapse;
+    border: solid 0.1rem #fff;
+    padding: 1rem;
+  }
+  .table-primary table thead th {
+    background-color: #a29bfe;
+    color: #222;
+    padding: 1rem;
+  }
+  .table-primary table tbody td:nth-of-type(1) {
+    text-align: center;
+  }
+  .table-primary table thead th:nth-of-type(3) {
+    width: 45%;
+  }
+  .table-primary table tbody tr:nth-child(2n + 2) {
+    background-color: #636e72;
+  }
+  .table-primary table caption {
+    line-height: 4.5rem;
+    font-size: x-large;
+    padding: 1rem 0;
+  }

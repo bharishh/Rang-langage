@@ -1,0 +1,32 @@
+
+html {
+    /* selecteur css | propriété | valeur */
+    font-size: 62.5%;
+  }
+  
+  body {
+    font: 1.6rem "Roboto Slab", sans-serif; /* serif default */
+    margin: 0;
+    background-color: #2b2a33;
+    line-height: 1.6; /* interlignage */
+    letter-spacing: 0.2rem; /* 1px */
+    color: #ffffff;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100svh;
+  }
+  h1,
+  h2,
+  h3,
+  figure,
+  p {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  img {
+    display: inline-block;
+  }
